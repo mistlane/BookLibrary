@@ -1,0 +1,108 @@
+body {
+    background-color: rgba(255, 255, 255, 0.651);
+}
+
+.bookbox {
+    display: inline-block;
+    background-color: rgb(96, 171, 206);
+    min-height: 100px;
+    width: 300px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    
+}
+
+#container {
+    height:800px;
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+    top: 40px;
+}
+
+.book {
+color: white;
+
+}
+
+.infobox {
+    position:relative;
+    
+    min-height: 100px;
+    width: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+ 
+}
+
+h1 {
+    text-align: center;
+}
+
+#form {
+    position:absolute;
+    top: 95px;
+    right: 900px;
+    height: 350px;
+    width: 200px;
+    background-color: white;
+    text-align: center;
+    border: 5px solid grey;
+    border-radius: 20px;
+}
+
+p {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+input[type=text] {
+  width: 90%;
+  border: 2px solid rgb(141, 141, 141);
+  border-radius: 4px;
+}
+
+input[type=button] {
+    position:relative;
+    background-color:white;
+    height: 50px;
+    width: 100px;
+    border: 2px solid rgb(141, 141, 141);
+    border-radius: 4px;
+    }
+
+.addbutton {
+    position: absolute;
+    background-color:white;
+    
+}
+
+.buttondiv {
+    position:relative;
+    left: 10px;
+    width: 200px;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .infobox + .infobox {
+    margin-top: 10px;
+}
+
+#adinfbox {
+    position:absolute;
+    top: 95px;
+    left: 500px;
+    min-height: 200px;
+    width: 200px;
+    background-color: white;
+    text-align: center;
+    border: 5px solid grey;
+    border-radius: 20px;
+}
